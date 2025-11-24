@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "61fe31c5-c156-47d2-8ebf-4082990f0423",
+		"name": "FibonacciARSW.postman_collection1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "43506682"
+	},
+	"item": [
+		{
+			"name": "https://functionprojectfibonacciarsw-dve5cehqeuh2a9ac.canadacentral-01.azurewebsites.net/api/Fibonacci",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"nth\": 1000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://functionprojectfibonacciarsw-dve5cehqeuh2a9ac.canadacentral-01.azurewebsites.net/api/Fibonacci",
+					"protocol": "https",
+					"host": [
+						"functionprojectfibonacciarsw-dve5cehqeuh2a9ac",
+						"canadacentral-01",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Fibonacci"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
